@@ -10,19 +10,18 @@ body {
 }
 
 header {
-  margin: 0.5rem auto 0;
-  padding: 2rem auto;
+  margin: 0;
+  padding: 2rem;
   width: 80%;
-  background-color: #ddf2f3;
+  /* background-color: #ddf2f3; */
   text-align: center;
   font-size: 4em;
   font-family: serif;
 }
 
 nav {
-  margin: 0 auto;
-  width: 80%;
-  padding: 1em auto;
+  margin: 0;
+  width: 100%;
   background-color: #00bfd5;
 }
 
@@ -30,22 +29,25 @@ nav ul {
   margin: 0 auto;
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 main {
   margin: 0 auto;
   width: 80%;
   display: flex;
-  background-color: #ddf2f3;
+  /* background-color: #ddf2f3; */
 }
 
 aside {
   border: 1px solid black;
 }
 
-/* div {
+.all {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  background-color: #ddf2f3;
+  width: 80%;
 }
- */
