@@ -34,13 +34,17 @@ nav ul {
 
 main {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   display: flex;
-  /* background-color: #ddf2f3; */
+  justify-content: space-evenly;
 }
 
 aside {
   border: 1px solid black;
+}
+
+main div {
+  width: 50%;
 }
 
 .all {
