@@ -11,12 +11,12 @@ body {
 
 header {
   margin: 0;
-  padding: 2rem;
-  width: 80%;
-  /* background-color: #ddf2f3; */
+  padding: 2rem 0;
+  width: 100%;
   text-align: center;
   font-size: 4em;
   font-family: serif;
+  color: #415467;
 }
 
 nav {
@@ -27,13 +27,19 @@ nav {
 
 nav ul {
   margin: 0 auto;
+  padding: 0.5rem 0;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 0 0.75rem;
 }
 
 main {
   margin: 0 auto;
+  padding: 5% 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -41,10 +47,24 @@ main {
 
 aside {
   border: 1px solid black;
+  padding: 0.25em;
 }
 
+aside ul {
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+h1 {
+  color: #415467;
+}
 main div {
-  width: 50%;
+  width: 66%;
+}
+
+footer {
+  background-color: #d3d3d3;
+  padding: 0.5em;
 }
 
 .all {
@@ -53,5 +73,9 @@ main div {
   align-items: flex-start;
   margin: auto;
   background-color: #ddf2f3;
-  width: 80%;
+  width: 70%;
+}
+
+.topnav {
+  color: white;
 }
