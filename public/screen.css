@@ -55,7 +55,8 @@ aside ul {
   font-weight: bold;
 }
 
-h1 {
+h1,
+h2 {
   color: #415467;
 }
 main div {
@@ -67,6 +68,10 @@ footer {
   padding: 0.5em;
 }
 
+footer a {
+  color: black;
+}
+
 .all {
   display: flex;
   flex-direction: column;
@@ -76,6 +81,6 @@ footer {
   width: 70%;
 }
 
-.topnav {
+.topnav a {
   color: white;
 }
